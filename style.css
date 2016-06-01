@@ -49,6 +49,10 @@ h2 {
   font-size: 1.8em;
 }
 
+p {
+  margin-bottom: 2em;
+  color: #202020;
+}
 small {
   font-size: .5em;
 }
