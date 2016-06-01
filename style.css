@@ -53,8 +53,11 @@ p {
   margin-bottom: 2em;
   color: #202020;
 }
-small {
+h1 small {
   font-size: .5em;
+}
+small {
+  color: #999;
 }
 small a {
   color: #999;
