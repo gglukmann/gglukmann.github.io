@@ -30,7 +30,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
-@media (min-width: 720px) {
+@media (min-width: 800px) {
   .col-6 {
     width: 60%;
   }
@@ -38,6 +38,18 @@ body {
   .col-4 {
     width: 40%;
   }
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading__image {
+    height: 2em;
+    width: 2em;
+    margin-right: 1em;
 }
 
 h1 {
