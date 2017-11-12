@@ -1,3 +1,7 @@
+:root {
+  --gutter: 30px;
+}
+
 html {
     height: 100%;
     font-family: sans-serif;
@@ -46,14 +50,15 @@ small,
 .🐘 {
     display: block;
     width: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: calc(var(--gutter) / 2);
+    padding-right: calc(var(--gutter) / 2);
 }
 
 .🦓 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    margin-bottom: calc(var(--gutter) / 2);
 }
 
 @media (min-width: 800px) {
