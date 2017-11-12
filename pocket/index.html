@@ -14,7 +14,7 @@
     <meta property="og:image:alt" content="Unofficial Pocket Chrome extension" />
 
     <style>
-    .container {
+    .🐘 {
         display: none;
     }
     </style>
@@ -23,44 +23,64 @@
     !function(e){"use strict"
     var n=function(n,t,o){function i(e){return f.body?e():void setTimeout(function(){i(e)})}var d,r,a,l,f=e.document,s=f.createElement("link"),u=o||"all"
     return t?d=t:(r=(f.body||f.getElementsByTagName("head")[0]).childNodes,d=r[r.length-1]),a=f.styleSheets,s.rel="stylesheet",s.href=n,s.media="only x",i(function(){d.parentNode.insertBefore(s,t?d:d.nextSibling)}),l=function(e){for(var n=s.href,t=a.length;t--;)if(a[t].href===n)return e()
-    setTimeout(function(){l(e)})},s.addEventListener&&s.addEventListener("load",function(){this.media=u}),s.onloadcssdefined=l,l(function(){s.media!==u&&(s.media=u)}),s}
-    "undefined"!=typeof exports?exports.loadCSS=n:e.loadCSS=n}("undefined"!=typeof global?global:this);
-    loadCSS("style.css");
-    </script>
-    <noscript>
-        <link href="style.css" rel="stylesheet">
-    </noscript>
-</head>
-<body>
-    <div class="container">
-        <div class="heading">
-            <img src="newtabpocket.svg" alt="New Tab - Pocket Logo" class="heading__image">
-            <h1>
-                New Tab - Pocket
-                <small><a href="http://fortis.planet.ee/gg" target="_blank">by GG</a></small>
-            </h1>
-        </div>
-        <div class="row">
-            <div class="col col-6">
-                <div class="browser-mockup with-url">
-                    <img src="screenshots/screenshot1280x800.jpg" srcset="screenshots/screenshot1280x800.jpg 1x, screenshots/screenshot2560x1600.jpg 2x" alt="Unofficial Pocket Chrome extension" />
+        setTimeout(function(){l(e)})},s.addEventListener&&s.addEventListener("load",function(){this.media=u}),s.onloadcssdefined=l,l(function(){s.media!==u&&(s.media=u)}),s}
+        "undefined"!=typeof exports?exports.loadCSS=n:e.loadCSS=n}("undefined"!=typeof global?global:this);
+        loadCSS("style.css");
+        </script>
+        <noscript>
+            <link href="style.css" rel="stylesheet">
+        </noscript>
+    </head>
+    <body>
+        <div class="🐘">
+            <div class="🦍">
+                <img src="newtabpocket.svg" alt="New Tab - Pocket Logo" class="🦍__image" width="30px">
+                <h1 class="text-center">
+                    New Tab - Pocket
+                    <small class="🦍__small">
+                        <a href="http://fortis.planet.ee/gg" class="🦍__link" target="_blank">by GG</a>
+                    </small>
+                </h1>
+            </div>
+            <div class="🦓">
+                <div class="🦓__col 🦓__col--6">
+                    <div class="🐅">
+                        <img src="screenshots/screenshot1280x800.jpg" srcset="screenshots/screenshot1280x800.jpg 1x, screenshots/screenshot2560x1600.jpg 2x" alt="Unofficial Pocket extension for Chrome, Firefox and Opera" class="🐅__image" />
+                    </div>
+                </div>
+                <div class="🦓__col 🦓__col--4">
+                    <div class="🐟">
+                        <h2>Unofficial Pocket new tab extension for Chrome, Firefox and Opera</h2>
+                        <p>
+                            Get your Pocket list and archive right on your browsers new tab.
+                        </p>
+                        <div>
+                            <p>
+                                Open links, mark as read ning delete links from your account right from new tab. And ofcourse add your favorite articles to favorites list.
+                            </p>
+                            <p class="🐟__margin text-small text-center">IT'S FREE</p>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://chrome.google.com/webstore/detail/new-tab-pocket/ikndkhohinloomoacdggllledgjehkcf" class="🐙" target="_blank">
+                                <img src="svg/chrome.svg" alt="Chrome logo" class="🐙__icon">
+                                Add to Chrome
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://addons.mozilla.org/en-GB/firefox/addon/new-tab-pocket/" class="🐙" target="_blank">
+                                <img src="svg/firefox.svg" alt="Firefox logo" class="🐙__icon">
+                                Add to Firefox
+                            </a>
+                        </div>
+                        <div class="text-center">
+                            <a href="https://addons.opera.com" class="🐙" target="_blank" disabled>
+                                <img src="svg/opera.svg" alt="Opera logo" class="🐙__icon">Add to Opera
+                            </a>
+                            <p class="text-small">Coming soon</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col col-4">
-                <h2>Unofficial Pocket new tab extension for Chrome</h2>
-                <p>
-                    Get your Pocket list and archive right on your Chrome browsers new tab.
-                </p>
-                <p>
-                    Open links, mark as read ning delete links from your account right from new tab. And ofcourse add your favorite articles to favorites list.
-                </p>
-                <p class="text-center">
-                    <a href="https://chrome.google.com/webstore/detail/new-tab-pocket/ikndkhohinloomoacdggllledgjehkcf" class="btn btn--download" target="_blank">Add to Chrome</a>
-                    <br>
-                    <small>FOR FREE</small>
-                </p>
-            </div>
         </div>
-    </div>
-</body>
-</html>
+    </body>
+    </html>
