@@ -162,6 +162,13 @@ small,
     margin: 2em;
 }
 
+@media (min-width: 800px) {
+    .🐅 {
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+}
+
 .🐅:before {
     display: block;
     position: absolute;
