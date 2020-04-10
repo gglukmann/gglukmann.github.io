@@ -95,7 +95,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        margin-bottom: calc(var(--gutter) / 2);
+        margin-bottom: calc(var(--gutter) * 2);
       }
 
       @media (min-width: 800px) {
@@ -143,6 +143,7 @@
       .🦍__link {
         color: #999;
         text-decoration: none;
+        white-space: nowrap;
       }
 
       .🦍__link:hover {
@@ -259,7 +260,7 @@
         data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"
     /></a>
     <div class="🐘">
-      <div class="🦍">
+      <header class="🦍">
         <img
           src="newtabpocket.svg"
           alt="New Tab - Pocket Logo"
@@ -277,8 +278,8 @@
             >
           </small>
         </h1>
-      </div>
-      <div class="🦓">
+      </header>
+      <main class="🦓">
         <div class="🦓__col 🦓__col--6">
           <div class="🐅">
             <img
@@ -346,7 +347,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
   </body>
 </html>
